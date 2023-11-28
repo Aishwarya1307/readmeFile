@@ -22,9 +22,14 @@
   - pip3 install -r requirenments.txt
   - sudo dpkg -i libpq5_11.19-0+deb10u1_armhf.deb        ____________if error is occured
   - sudo apt-get update && apt-get install libpq5 -y     ____________ if error is occured
+  - scp libpq5_11.19-0+deb10u1_armhf.deb pi@192.168.71.15:/home/pi
+  - sudo dpkg -i libpq5_11.19-0+deb10u1_armhf.deb
+  -  sudo apt-get update && apt-get install libpq5 -y
   - sudo bash run_service.sh
   - [initialization db]
   - sudo journalctl -u tagid-iot-gateway.service -f
+
+    https://github.com/CODER4149/your_readme_files/files/11295465/libpq5_11.19-0%2Bdeb10u1_armhf.zip
 #### postgres prompt
   - sudo docker exec -it postgres bash
   - psql -U postgres -d postgres
