@@ -1,0 +1,59 @@
+git clone https://github.com/iam-rnd/tagid-iot-gateway.git
+1633  ping google.com
+1634  curl -X POST http://192.168.100.1:8090/login.xml --data-urlencode "mode=191" --data-urlencode "username=rnd" --data-urlencode "password=RnD*123456" --data-urlencode "a=1633529001622" --data-urlencode "producttype=0"
+1635  ping google.com
+ 1636  git clone https://github.com/iam-rnd/tagid-iot-gateway.git
+ 1637  ls
+ 1638  mkdir postgres
+ 1639  mkdir redis
+ 1640  cd tagid-iot-gateway/
+ 1641  cat docker-compose.yml 
+ 1642  sudo nano docker-compose.yml 
+ 1643  sudo docker-compose up -d
+ 1644  sudo docker ps
+ 1645  python3 -m venv venv
+ 1646  source venv/bin/activate
+ 1647  pip3 install -r requirements.txt 
+ 1648  pip3 install paho-mqtt==1.6.1
+ 1649  sudo bash run_service.sh 
+ 1650  deactivate
+ 1651  sudo docker exec -it postgres bash
+ 1652  ls
+ 1653  sudo bash run_service.sh 
+ 1654  git pull
+ 1655  scp libpq5_11.19-0+deb10u1_armhf.deb pi@192.168.71.15:/home/pi
+ 1656  sudo apt-get install unzip
+ 1657  sudo apt-get install wget
+ 1658  sudo dpkg -i libpq5_11.19-0+deb10u1_armhf.deb
+ 1659  ls
+ 1660  pwd
+ 1661  cd 
+ 1662  sudo dpkg -i libpq5_11.19-0+deb10u1_armhf.deb
+ 1663  sudo apt-get update && apt-get install libpq5 -y
+ 1664  sudo su
+ 1665  cd tagid-iot-gateway/
+ 1666  sudo bash run_service.sh 
+1667  sudo apt-get update && apt-get install libpq5 -y
+1668  cd 
+1669  sudo su
+1670  cd tagid-iot-gateway/
+1671  sudo bash run_service.sh 
+1672  sudo nano tagid_iot_gateway.service 
+1673  y
+1674  history
+
+
+
+## in su user 
+
+       sudo su
+       sudo dpkg -i libpq5_11.19-0+deb10u1_armhf.deb
+    2  sudo apt-get update && apt-get install libpq5 -y
+    3  exit
+    4  pwd
+    5  ls
+    6  sudo dpkg -i libpq5_11.19-0+deb10u1_armhf.deb 
+    7  sudo apt-get update && apt-get install libpq5-y
+    8  sudo apt-get update && apt-get install libpq5 -y
+    9  exit
+   10  history
