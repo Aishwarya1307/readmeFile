@@ -32,7 +32,13 @@
 
     https://github.com/CODER4149/your_readme_files/files/11295465/libpq5_11.19-0%2Bdeb10u1_armhf.zip
 
- - 
+ - ### gatewaypsycopg2error
+ - locally hit below query  that dounload the `https://github.com/CODER4149/your_readme_files/files/11295465/libpq5_11.19-0%2Bdeb10u1_armhf.zip` file and unzip it after
+ - scp libpq5_11.19-0+deb10u1_armhf.deb pi@192.168.71.15:/home/pi
+  ####In gateway 
+  - sudo dpkg -i libpq5_11.19-0+deb10u1_armhf.deb
+
+  - sudo apt-get update && apt-get install libpq5 -y
 #### postgres prompt
   - sudo docker exec -it postgres bash
   - psql -U postgres -d postgres
