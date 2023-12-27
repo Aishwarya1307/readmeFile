@@ -1,0 +1,62 @@
+dmesg 
+ 1949  gw
+ 1950  dmesg -h
+ 1951  dmesg -H
+ 1952  dmesg
+ 1953  fsck
+ 1954  sudo fsck /dev/mmcblk0p2
+ 1955  gw
+ 1956  sudo cat /var/log/syslog
+ 1957  sudo cat /var/log/syslog | grep -a "fsck"
+ 1958  sudo cat /var/log/messages | grep -a "fsck"
+ 1959  sudo cat /var/log/syslog | grep -a "fsck"
+ 1960  sudo mount -o remount,rw /dev/mmcblk0p2
+ 1961  sudo reboot 
+ 1962  gw
+ 1963  sudo mount -o remount,rw /dev/mmcblk0p2
+ 1964  sudo cat /var/log/syslog | grep -a "fsck"
+ 1965  sudo mount -o remount,rw /dev/mmcblk0p1
+ 1966  sudo mount -o remount,rw /dev/mmcblk0
+ 1967  sudo mount -o remount,rw /dev/mmcblk0p2
+ 1968  dm -h
+ 1969  df -h
+ 1970  sudo mount -o remount,rw /
+ 1971  df -h
+ 1972  ls
+ 1973  sudo ebo
+ 1974  sudo reboot 
+ 1975  gw
+ 1976  cat /etc/fstab 
+ 1977  sudo nano /etc/fstab 
+ 1978  sudo su
+ 1979  ls -la /etc/fstab 
+ 1980  cat /etc/fstab 
+ 1981  chmod 777 /etc/fstab 
+ 1982  sudo chmod 777 /etc/fstab 
+ 1983  sudo chown 777 /etc/fstab 
+ 1984  sudo nano /etc/fstab 
+ 1985  sudo mount -o remount,rw /
+ 1986  sudo touch /etc/fstab
+ 1987  sudo nano /etc/fstab 
+ 1988  sudo reboot 
+ 1989  gw
+ 1990  sudo systemctl status iam-gateway.service 
+ 1991  docker restart $(docker ps -q)
+ 1992  journalctl -u iam-gateway.service -f
+ 1993  sudo systemctl restart iam-gateway.service 
+ 1994  journalctl -u iam-gateway.service -f
+ 1995  sudo reboot 
+ 1996  sudo nano /etc/fstab 
+ 1997  sudo docker ps
+ 1998  cd tagid-iot-gateway
+ 1999  sudo systemctl status tagid_iot_gateway.service 
+ 2000  journalctl -u tagid-iot-gateway.service -f
+ 2001  sudo journalctl -u tagid_iot_gateway.service -f
+ 2002  cd 
+ 2003  cd /var/log/
+ 2004  ls
+ 2005  cat syslog | grep 'fstab'
+ 2006  sudo nano syslog | grep 'fstab'
+ 2007  cd 
+ 2008  cat /etc/fstab 
+ 2009  history
