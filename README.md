@@ -20,6 +20,7 @@
   - ls
   - source venv/bin/activate
   - pip3 install -r requirenments.txt
+  - error during installing requirement = pip install --upgrade --force-reinstall pydantic-core==2.14.6
   - sudo dpkg -i libpq5_11.19-0+deb10u1_armhf.deb        ____________if error is occured
   - sudo apt-get update && apt-get install libpq5 -y     ____________ if error is occured
   - unzip libpq5_11.19-0%2Bdeb10u1_armhf.zip
